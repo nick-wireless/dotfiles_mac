@@ -13,5 +13,5 @@ This setup, supported by the course on dotfiles [dotfiles.eieio.xyz](http://dotf
 - Trackpad (3 finger drag & tap to click)
 - .zshrc
 - Git (config & ssh)
-
+- Homebrew install
 
