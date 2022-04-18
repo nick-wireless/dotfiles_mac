@@ -15,3 +15,9 @@ This setup, supported by the course on dotfiles [dotfiles.eieio.xyz](http://dotf
 - Git (config & ssh)
 - Homebrew install
 
+
+### NH's sublist
+- Keep .zshrc upto date.
+- Implement vimrc & lsp.
+- Find & load 'key packages' to complete remote setup.
+- Font preferences load.
