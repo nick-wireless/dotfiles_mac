@@ -10,6 +10,6 @@ brew install bat
 
 # CASKS - Applicaitons
 # These two zero'ed out as legacy installs on master computer:
-# brew install google-chrome
-# brew install visual-studio-code
-
+# brew install --no-quarantine google-chrome
+# brew install --no-quarantine visual-studio-code
+brew install --no-quarantine alfred 
