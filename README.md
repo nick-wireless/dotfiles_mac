@@ -11,9 +11,7 @@ This setup, supported by the course on dotfiles [dotfiles.eieio.xyz](http://dotf
 - Mission control preferences.
 - Finder show path bar.
 - Trackpad (3 finger drag & tap to click)
-- .zshrc
 - Git (config & ssh)
-- Homebrew install
 
 
 ### NH's sublist
