@@ -3,12 +3,15 @@ echo 'Hello from .zshrc'
 # Set variables
 # Using Bat to colourise the Manual pages
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" 
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH options
 
 
 # Create aliases
-alias ls='ls -lAFh'
+# alias ls='ls -lAFh'
+alias ls='exa -laF --git'
+alias lsfull='exa --tree --level=2'
 
 # Customise prompts
 PROMPT='

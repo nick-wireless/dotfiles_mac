@@ -15,4 +15,9 @@ echo "\n<<< Starting Homebrew Setup >>>\n"
 # brew install --no-quarantine visual-studio-code
 # brew install --no-quarantine alfred
 
+# Note to self:
+# Using --no-quarantine variable to skip gatekeeper.
+# Ensure that this is consistent with future setups.
+# See Brewbundle issue 474.
+
 brew bundle --verbose
