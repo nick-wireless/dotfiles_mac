@@ -8,6 +8,9 @@
     ~/.zshrc: zshrc 
     ~/.tmux.conf: 
     ~/.gitconfig:
+    ~/.config:
+      create: true
+      path: config
 
 - create:
 #    - ~/downloads

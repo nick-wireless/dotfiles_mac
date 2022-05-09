@@ -1,0 +1,44 @@
+{
+	"analytics-uuid": "a2fa9ae8-c25b-4a69-817c-cd84275d9495",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1620651749091
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "108736120645362935325",
+		"email": "australian.nick@gmail.com",
+		"email_verified": true,
+		"at_hash": "5HtIFGkMW_Ya_2IfOIf-Xw",
+		"iat": 1620651775,
+		"exp": 1620655375
+	},
+	"tokens": {
+		"expires_at": 1620655602291,
+		"refresh_token": "1//0gp4sWyt1DErSCgYIARAAGBASNwF-L9Irfb1HpOPGOv5Z2K0lhLSgn3FXgMAogA5aQuxhSBeW5XkYT7FUmNge_KZxIki62kGrAS8",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0AfH6SMDPAeVruZSp7Eq48gBSx5ubqr68SkISlJqm-OjjeJjjQ2vNXIyta3SolB1TzMHowazihg4jmqaYQFuWYxnfe7JaH_BZBkCWnerN19YjCysk5kzcp26QJyivWdj187usON3UWMyI4JoNDSK4-Y_FP_fdx6fcQcwh",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5ZWQ1N2Y0MjQ0OTEyODJhMTgwMjBmZDU4NTk1NGI3MGJiNDVhZTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA4NzM2MTIwNjQ1MzYyOTM1MzI1IiwiZW1haWwiOiJhdXN0cmFsaWFuLm5pY2tAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJTeGRyRl95TUF1RldTeGJPX2I1d2VRIiwiaWF0IjoxNjIwNjUyMDAzLCJleHAiOjE2MjA2NTU2MDN9.YuBZe2lmQ2VcAq2HOk2eNr9IevAnhEOq_KhZJ-i1Cp5IunUCID_BQUZcMKJ3o-SwpHllgqHusVajzXSJKWVx6urVTHrPjrgt9SnOMyOrTV5g8a01-CAOYQxPerclF1Rj18kGg5sMGkxDF-K3GisFQ7LovIylx1mA_n23N6NFztJDni-6FW4IzON5RfLCyJk_w0zRjdHFn7wdtzl4P6eZdyQnCsT4L89a9DmV3SVd5aGnZFjMkiao0HlKVmmNQVCU0Z0FMt_M2a3BoQ4ektZ061xyrfqPu8yKEQuo6Mz4LDeXJ2Ji-wbJ8lNwmDwQMWS2j-PgM3U1Jn1MRKizaY1szQ"
+	},
+	"activeProjects": {
+		"/Users/nh/dest-all-soft/firebase-test": "course-caddie-e4841"
+	}
+}

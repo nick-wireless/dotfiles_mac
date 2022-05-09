@@ -15,7 +15,7 @@ This setup, supported by the course on dotfiles [dotfiles.eieio.xyz](http://dotf
 
 
 ### NH's sublist
-- Keep .zshrc upto date.
-- Implement vimrc & lsp.
-- Find & load 'key packages' to complete remote setup.
+- Review .config folder for unrequired extra junk.
+- Did not copy over from config/yarn the master json files.
+  - nor iTerm2's applink.
 - Font preferences load.
