@@ -8,9 +8,9 @@
     ~/.zshrc: zshrc 
     ~/.tmux.conf: 
     ~/.gitconfig:
-    ~/.config:
+    ~/.config/bat:
       create: true
-      path: config
+      path: config/bat
 
 - create:
 #    - ~/downloads
