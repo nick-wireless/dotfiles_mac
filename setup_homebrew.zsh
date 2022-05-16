@@ -1,8 +1,14 @@
 #!/usr/bin/env zsh
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
-# Setting up Brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if exists brew; then
+  echo "brew exists, skipping install"
+else
+  # installing homebrew
+  echo "brew does not exist, continuing with install"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
 
 # Skipping this section now, in favor of the Brew Bundle methodology.
 # CELLAR - programs / tools
