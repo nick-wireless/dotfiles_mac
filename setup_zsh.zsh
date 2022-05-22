@@ -17,3 +17,11 @@ else
   chsh -s '/usr/local/bin/zsh'
 fi
 
+if sh --version | grep -q zsh; then 
+  echo '/private/var/select/sh already linked to /bin/zsh'
+else
+  echo 'Enter sudo password to simlink sh to zsh'
+  # Not 100% but illustrative of the direction.
+  sudo ln -sfv /bin/zsh /private/var/select/sh
+fi
+
