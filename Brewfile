@@ -52,6 +52,8 @@ brew "python@3.8"
 brew "tmux"
 # JavaScript package manager
 brew "yarn"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 # Application launcher and productivity software
