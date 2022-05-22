@@ -22,11 +22,11 @@ PROMPT='
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 
-
 # Write handy functions
 function mkcd() {
   mkdir -p "$@" && cd "$_"
 }
+
 
 # Use ZSH plugins
 
