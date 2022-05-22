@@ -5,6 +5,7 @@ echo 'Hello from .zshrc'
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" 
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export HOMEBREW_BUNDLE_BREW_SKIP=""heroku/brew" "GarageBand" "iMovie" "Keynote" "Numbers" "Pages""
+export NULLCMD=bat
 
 # Change ZSH options
 
