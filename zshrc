@@ -4,6 +4,7 @@ echo 'Hello from .zshrc'
 # Using Bat to colourise the Manual pages
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" 
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export HOMEBREW_BUNDLE_BREW_SKIP=""heroku/brew" "GarageBand" "iMovie" "Keynote" "Numbers" "Pages""
 
 # Change ZSH options
 
@@ -12,6 +13,9 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # alias ls='ls -lAFh'
 alias ls='exa -laF --git'
 alias lsfull='exa --tree --level=2'
+alias exa='exa -laF --git'
+alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 # Customise prompts
 PROMPT='
