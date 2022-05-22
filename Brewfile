@@ -1,4 +1,4 @@
-# tap "heroku/brew"
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -6,6 +6,8 @@ tap "homebrew/core"
 tap "neovim/neovim"
 # Mozilla CA certificate store
 brew "ca-certificates"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Open source suite of directory software
@@ -24,12 +26,22 @@ brew "exa"
 brew "glib"
 # Apache HTTP server
 brew "httpd"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Pager program similar to more
+brew "less"
 # Package manager for the Lua programming language
 brew "luarocks"
 # Mac App Store command-line interface
 brew "mas"
+# Fast and user friendly build system
+brew "meson"
+# Node version management
+brew "n"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Platform built on V8 to build network applications
@@ -48,11 +60,11 @@ cask "alfred"
 cask "brave-browser"
 # GPU-based terminal emulator
 cask "kitty"
-# mas "GarageBand", id: 682658836
-# mas "iMovie", id: 408981434
-# mas "Keynote", id: 409183694
-# mas "Numbers", id: 409203825
-# mas "Pages", id: 409201541
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Snappy", id: 512617038
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
