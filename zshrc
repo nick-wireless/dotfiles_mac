@@ -4,8 +4,9 @@ echo 'Hello from .zshrc'
 # Using Bat to colourise the Manual pages
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" 
 export HOMEBREW_CASK_OPTS="--no-quarantine"
-export HOMEBREW_BUNDLE_BREW_SKIP=""heroku/brew" "GarageBand" "iMovie" "Keynote" "Numbers" "Pages""
 export NULLCMD=bat
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Change ZSH options
 
@@ -25,7 +26,7 @@ PROMPT='
 # Add locations to the $Path Variable
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
+export PATH="$PATH:$N_PREFIX/bin"
 
 # Write handy functions
 function mkcd() {
