@@ -18,6 +18,7 @@ alias lsfull='exa --tree --level=2'
 alias exa='exa -laF --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias rm=trash
 
 # Customise prompts
 PROMPT='
