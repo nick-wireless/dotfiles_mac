@@ -15,6 +15,7 @@ fi
 npm install --global firebase-tools
 npm install --global json-server
 npm install --global trash-cli
+npm install --global yarn
 
 echo "Global NPM packages installed:"
 npm list --global --depth=0
