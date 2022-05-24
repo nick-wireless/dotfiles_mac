@@ -11,5 +11,11 @@ else
   n lts
 fi
 
+# Installing global NPM packages
+npm install --global firebase-tools
+npm install --global json-server
+
+echo "Global NPM packages installed:"
+npm list --global --depth=0
 
 
