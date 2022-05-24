@@ -2,7 +2,7 @@
 echo "\n<<< Starting Node Setup >>>\n"
 
 # Node versions are managed with 'n', installed in the Brew file.
-# See zshrc for N_PREFIX variable and addition to PATH.
+# See zshrc for N_PREFIX variable and addition to path.
 
 if exists node; then
   echo "Node $(node --version) & NPM $(npm --version) already installed"

@@ -24,10 +24,20 @@ alias rm=trash
 PROMPT='
 %1~ %L %# '
 
-# Add locations to the $Path Variable
-export PATH="$N_PREFIX/bin:$PATH"
+# Add locations to the via path array ()
+
+# export PATH="$N_PREFIX/bin:$PATH"
 # Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+typeset -U path
+
+path=(
+  "$N_PREFIX/bin"
+  $path
+  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
+
 
 # Write handy functions
 function mkcd() {
